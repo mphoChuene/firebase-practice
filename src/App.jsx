@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import db from "./firebaseConfig";
 import "./styles.css";
 import Users from "./Users";
-import { collection, doc, onSnapshot, snapshotEqual } from "firebase/firestore";
+import { collection, onSnapshot} from "firebase/firestore";
 import Food from "./Food";
 
 const Dot = ({ color }) => {
